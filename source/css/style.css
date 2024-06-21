@@ -4715,6 +4715,10 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li span.step {
   color: #37599a;
 }
+body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li a {
+  color: #1c7cc2;
+  font-weight: 900;
+}
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li > span.status {
   position: absolute;
   right: 20px;
