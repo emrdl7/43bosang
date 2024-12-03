@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="80" viewBox="0 0 80 80">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="사각형_1578" data-name="사각형 1578" width="40" height="44.682" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="그룹_1912" data-name="그룹 1912" transform="translate(-430 -1985)">
+    <g id="사각형_1577" data-name="사각형 1577" transform="translate(430 1985)" fill="#f5f5f5" stroke="#d6d6d6" stroke-width="1">
+      <rect width="80" height="80" rx="30" stroke="none"/>
+      <rect x="0.5" y="0.5" width="79" height="79" rx="29.5" fill="none"/>
+    </g>
+    <g id="그룹_1910" data-name="그룹 1910" transform="translate(450 2003)">
+      <g id="그룹_1909" data-name="그룹 1909" transform="translate(0 0)" clip-path="url(#clip-path)">
+        <path id="패스_23691" data-name="패스 23691" d="M38.983,44.682H1.017A1.016,1.016,0,0,1,0,43.665V1.017A1.016,1.016,0,0,1,1.017,0H38.983A1.016,1.016,0,0,1,40,1.017V43.665a1.016,1.016,0,0,1-1.017,1.017M2.033,42.648H37.967V2.033H2.033Z" transform="translate(0 0)" fill="#41444b"/>
+        <path id="패스_23692" data-name="패스 23692" d="M36.628,66.239a4.625,4.625,0,0,0-7.751-3.414,4.628,4.628,0,1,0-4.529,7.824v5.6h9.059v-5.6a4.632,4.632,0,0,0,3.221-4.41" transform="translate(-12.536 -36.557)" fill="#5580cc"/>
+        <path id="패스_23693" data-name="패스 23693" d="M58.244,10.276H51.3L44.7,16.867A4.629,4.629,0,1,0,42.376,25.6a4.628,4.628,0,1,0,8.735-2.33l7.133-7.133Z" transform="translate(-22.52 -6.097)" fill="#5580cc"/>
+        <path id="패스_23694" data-name="패스 23694" d="M40.609,52.987a2.377,2.377,0,1,0-2.377,2.377,2.378,2.378,0,0,0,2.377-2.377" transform="translate(-21.654 -30.61)" fill="#5680cc"/>
+        <path id="패스_23695" data-name="패스 23695" d="M21.954,11.809H10.7a1.017,1.017,0,1,1,0-2.033h11.25a1.017,1.017,0,0,1,0,2.033" transform="translate(-5.749 -5.801)" fill="#41444b"/>
+        <path id="패스_23696" data-name="패스 23696" d="M13.415,20.475H10.7a1.017,1.017,0,1,1,0-2.033l6.106.094a1.017,1.017,0,0,1,0,2.033" transform="translate(-5.749 -10.943)" fill="#41444b"/>
+      </g>
+    </g>
+  </g>
+</svg>

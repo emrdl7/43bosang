@@ -4346,6 +4346,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.support ul.det
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type09::before {
   background: url(../images/iconSupport09.svg) no-repeat center/100% auto;
 }
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type10::before {
+  background: url(../images/iconSupport10.svg) no-repeat center/100% auto;
+}
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul {
   list-style: none;
   margin: 0;

@@ -2974,6 +2974,13 @@ body {
                           center / 100% auto;
                       }
                     }
+
+                    &.type10 {
+                      &::before {
+                        background: url(../images/iconSupport10.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
                   }
 
                   ul {
