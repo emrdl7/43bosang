@@ -4349,6 +4349,15 @@ body div#content.sub div.sub-contents div.contentsOutline section.support ul.det
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type10::before {
   background: url(../images/iconSupport10.svg) no-repeat center/100% auto;
 }
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type11::before {
+  background: url(../images/iconSupport11.svg) no-repeat center/100% auto;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type12::before {
+  background: url(../images/iconSupport12.svg) no-repeat center/100% auto;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li h5.type13::before {
+  background: url(../images/iconSupport13.svg) no-repeat center/100% auto;
+}
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul {
   list-style: none;
   margin: 0;
@@ -4370,6 +4379,15 @@ body div#content.sub div.sub-contents div.contentsOutline section.support ul.det
   display: block;
   position: absolute;
   left: 0;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul.noline {
+  margin: 10px 0 0;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul.noline li {
+  padding: 0;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li ul.noline li::before {
+  display: none;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.support ul.detail > li > a {
   display: inline-block;

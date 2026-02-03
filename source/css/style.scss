@@ -2981,6 +2981,27 @@ body {
                           center / 100% auto;
                       }
                     }
+
+                    &.type11 {
+                      &::before {
+                        background: url(../images/iconSupport11.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
+
+                    &.type12 {
+                      &::before {
+                        background: url(../images/iconSupport12.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
+
+                    &.type13 {
+                      &::before {
+                        background: url(../images/iconSupport13.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
                   }
 
                   ul {
@@ -3004,7 +3025,23 @@ body {
                         position: absolute;
                         left: 0;
                       }
+
+                      
                     }
+
+
+                      &.noline {
+                        margin:10px 0 0;
+
+                        li {
+                            padding:0;
+
+
+                          &::before {
+                            display:none;
+                          }
+                        }
+                      }
                   }
 
                   &>a {
