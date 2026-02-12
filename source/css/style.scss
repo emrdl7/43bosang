@@ -3002,6 +3002,12 @@ body {
                           center / 100% auto;
                       }
                     }
+                    &.type14 {
+                      &::before {
+                        background: url(../images/iconSupport14.svg) no-repeat
+                          center / 100% auto;
+                      }
+                    }
                   }
 
                   ul {
