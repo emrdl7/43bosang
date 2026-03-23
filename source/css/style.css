@@ -798,15 +798,17 @@ button {
   -moz-appearance: none;
   -ms-appearance: none;
   -webkit-appearance: none;
+}
+.modal .modal-content div.inside div.co-check span.select-outline select::-ms-expand {
+  display: none;
+}
+.modal .modal-content div.inside div.co-check span.select-outline select {
   width: 100%;
   height: 46px;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-.modal .modal-content div.inside div.co-check span.select-outline select::-ms-expand {
-  display: none;
 }
 .modal .modal-content div.inside div.co-check span.select-outline::before, .modal .modal-content div.inside div.co-check span.select-outline::after {
   content: "";
@@ -1618,15 +1620,17 @@ div.input dl dd span.select-outline select {
   -moz-appearance: none;
   -ms-appearance: none;
   -webkit-appearance: none;
+}
+div.input dl dd span.select-outline select::-ms-expand {
+  display: none;
+}
+div.input dl dd span.select-outline select {
   height: 40px;
   width: 130px;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-div.input dl dd span.select-outline select::-ms-expand {
-  display: none;
 }
 @media (min-width: 1200px) {
   div.input dl dd span.select-outline select {
@@ -1808,7 +1812,6 @@ body {
 body {
   min-height: 100vh;
   min-height: -webkit-fill-available;
-  /* header */
 }
 body .container {
   position: relative;
@@ -1829,6 +1832,9 @@ body .container {
     height: 100%;
     padding: 0;
   }
+}
+body {
+  /* header */
 }
 body header {
   text-align: center;
@@ -2771,7 +2777,7 @@ body dl.form3 dd {
 }
 body dl.form3 dd i.info {
   font-size: 14px;
-  color: #FF660D;
+  color: #ff660d;
   font-style: normal;
   display: block;
   margin: 0 0 10px;
@@ -3014,7 +3020,7 @@ body div.infoBox2 ul li {
   padding: 0 0 0 18px;
   color: #555555;
   font-size: 15px;
-  color: #5680CC;
+  color: #5680cc;
   font-weight: 500;
 }
 @media (min-width: 1200px) {
@@ -3099,13 +3105,14 @@ body div#content {
   position: relative;
   text-align: center;
   padding: 54px 0 50px;
-  /* MAIN */
-  /* SUB */
 }
 @media (min-width: 1200px) {
   body div#content {
     padding: 144px 0 40px;
   }
+}
+body div#content {
+  /* MAIN */
 }
 body div#content.main {
   background: url(../images/mainBgM.png) no-repeat center bottom/100% 100%;
@@ -3284,7 +3291,7 @@ body div#content.main section.main-issue div.container div.sign a {
   color: #555555;
   background: none;
   line-height: 32px;
-  border: 1px solid #8B8B8B;
+  border: 1px solid #8b8b8b;
   border-radius: 34px;
   width: 114px;
 }
@@ -3362,7 +3369,7 @@ body div#content.main section.main-issue div.container div.smart a {
   color: #555555;
   background: none;
   line-height: 32px;
-  border: 1px solid #8B8B8B;
+  border: 1px solid #8b8b8b;
   border-radius: 34px;
   width: 114px;
 }
@@ -3439,7 +3446,7 @@ body div#content.main section.main-issue div.container div.site a {
   color: #555555;
   background: none;
   line-height: 32px;
-  border: 1px solid #8B8B8B;
+  border: 1px solid #8b8b8b;
   border-radius: 34px;
   width: 114px;
 }
@@ -3518,6 +3525,9 @@ body div#content.main section.main-issue div.container div.links div.box a::befo
 }
 body div#content.main section.main-issue div.container div.links div.box a:hover {
   text-decoration: underline;
+}
+body div#content {
+  /* SUB */
 }
 body div#content.sub {
   background: #fff;
@@ -4027,7 +4037,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.requiredDocume
 body div#content.sub div.sub-contents div.contentsOutline section.requiredDocuments2 div.steps p {
   position: relative;
   margin: 0 0 38px;
-  background: #F1F1F1;
+  background: #f1f1f1;
   border-radius: 20px;
   line-height: 48px;
   padding: 0 15px;
@@ -4691,7 +4701,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
   font-size: 15px;
   padding: 10px 10px 10px 0;
   margin: 0 10px 0 0;
-  border-bottom: 1px solid #CCCCCC;
+  border-bottom: 1px solid #cccccc;
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li ul li {
@@ -4748,7 +4758,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
   right: 20px;
   top: 20px;
   font-size: 16px;
-  color: #FF660D;
+  color: #ff660d;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list2 > ul > li button {
   position: absolute;
@@ -4776,15 +4786,15 @@ body div#content.sub div.sub-contents div.contentsOutline section.receipt div.li
 }
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list-empty {
   text-align: center;
-  background: #F6F8FB;
-  border: 1px solid #BBBBBB;
+  background: #f6f8fb;
+  border: 1px solid #bbbbbb;
   border-top-color: #222222;
   padding: 96px 20px;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.receipt div.list-empty span {
   display: block;
   font-size: 18px;
-  color: #8DA5C9;
+  color: #8da5c9;
   line-height: 1.8;
   word-break: keep-all;
 }
@@ -5298,15 +5308,17 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list fie
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search span.select-outline select::-ms-expand {
+  display: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search span.select-outline select {
   height: 34px;
   width: 80px;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search span.select-outline select::-ms-expand {
-  display: none;
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-list fieldset.search span.select-outline select {
@@ -5582,15 +5594,17 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-list2 fi
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-list2 fieldset.search span.select-outline select::-ms-expand {
+  display: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-list2 fieldset.search span.select-outline select {
   height: 34px;
   width: 80px;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-body div#content.sub div.sub-contents div.contentsOutline section.board-list2 fieldset.search span.select-outline select::-ms-expand {
-  display: none;
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.board-list2 fieldset.search span.select-outline select {
@@ -6232,15 +6246,17 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-write di
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-write div.board-box div.line p.rows span.select-outline select::-ms-expand {
+  display: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-write div.board-box div.line p.rows span.select-outline select {
   height: 34px;
   width: 100%;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-body div#content.sub div.sub-contents div.contentsOutline section.board-write div.board-box div.line p.rows span.select-outline select::-ms-expand {
-  display: none;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.board-write div.board-box div.line p.rows span.select-outline::before, body div#content.sub div.sub-contents div.contentsOutline section.board-write div.board-box div.line p.rows span.select-outline::after {
   content: "";
@@ -6380,15 +6396,17 @@ body div#content.sub div.sub-contents div.contentsOutline section.board-write ul
   appearance: none;
   -moz-appearance: none;
   -webkit-appearance: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-write ul.link li span.select-outline select::-ms-expand {
+  display: none;
+}
+body div#content.sub div.sub-contents div.contentsOutline section.board-write ul.link li span.select-outline select {
   height: 34px;
   width: 130px;
   font-size: 14px;
   display: inline-block;
   padding: 0 30px 0 10px;
   border: 1px solid #cccccc;
-}
-body div#content.sub div.sub-contents div.contentsOutline section.board-write ul.link li span.select-outline select::-ms-expand {
-  display: none;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.board-write ul.link li span.select-outline::before, body div#content.sub div.sub-contents div.contentsOutline section.board-write ul.link li span.select-outline::after {
   content: "";
@@ -6468,7 +6486,6 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list ul l
   padding: 20px;
   margin-bottom: 18px;
   border-radius: 10px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.card-list ul li {
@@ -6477,6 +6494,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list ul l
     padding: 28px 34px;
     margin-right: 35px;
   }
+}
+body div#content.sub div.sub-contents div.contentsOutline section.card-list ul li {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.card-list ul li {
@@ -6546,7 +6566,6 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul 
   padding: 20px;
   margin-bottom: 18px;
   border-radius: 10px;
-  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul li {
@@ -6555,6 +6574,9 @@ body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul 
     padding: 28px 34px;
     margin-right: 35px;
   }
+}
+body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul li {
+  box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.card-list2 ul li {
@@ -6986,14 +7008,14 @@ body div#content.sub div.sub-contents div.contentsOutline section.memorial-info 
   z-index: 10;
   font-size: 0;
   width: 316px;
-  height: 120px;
+  height: 124px;
   max-width: 100%;
   background: url(../images/memorial-text-mobile.svg) no-repeat center top/100% auto;
 }
 @media (min-width: 1200px) {
   body div#content.sub div.sub-contents div.contentsOutline section.memorial-info p {
     width: 741px;
-    height: 113px;
+    height: 126px;
     background: url(../images/memorial-text.svg) no-repeat center top/100% auto;
   }
 }
@@ -7261,8 +7283,8 @@ body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.
 body div#content.sub div.sub-contents div.contentsOutline section.sign-text ul.info {
   margin: 0 0 20px;
   padding: 20px;
-  border: 1px solid #9B9B9B;
-  background: #F6F6F6;
+  border: 1px solid #9b9b9b;
+  background: #f6f6f6;
   border-radius: 10px;
   list-style: none;
   line-height: 1.8;
@@ -7328,7 +7350,7 @@ body div#content.sub div.sub-contents div.contentsOutline section.sign-text p.co
 }
 body div#content.sub div.sub-contents div.contentsOutline section.sign-text p.counter a {
   padding: 0 0 0 10px;
-  color: #5680CC;
+  color: #5680cc;
 }
 body div#content.sub div.sub-contents div.contentsOutline section.sign-text div.buttons {
   padding: 15px 0;
@@ -7839,7 +7861,6 @@ body div.layerPop div.outline div.inline div.btns button {
   font-weight: 600;
   color: #555555;
   margin: 0 6px;
-  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
 @media (min-width: 1200px) {
   body div.layerPop div.outline div.inline div.btns button {
@@ -7847,6 +7868,9 @@ body div.layerPop div.outline div.inline div.btns button {
     width: 140px;
     height: 60px;
   }
+}
+body div.layerPop div.outline div.inline div.btns button {
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.15);
 }
 body div.layerPop div.outline div.inline div.btns button.main {
   color: #fff;
@@ -7975,8 +7999,8 @@ body div.signPop div.outline div.inline div.text {
 body div.signPop div.outline div.inline ul.info {
   margin: 0 0 20px;
   padding: 20px;
-  border: 1px solid #9B9B9B;
-  background: #F6F6F6;
+  border: 1px solid #9b9b9b;
+  background: #f6f6f6;
   border-radius: 10px;
   list-style: none;
   line-height: 1.8;
@@ -8042,7 +8066,7 @@ body div.signPop div.outline div.inline p.counter strong {
 }
 body div.signPop div.outline div.inline p.counter a {
   padding: 0 0 0 10px;
-  color: #5680CC;
+  color: #5680cc;
 }
 body div.signPop div.outline div.inline button.submit {
   display: block;
@@ -8050,7 +8074,7 @@ body div.signPop div.outline div.inline button.submit {
   height: 50px;
   margin: 0 auto 20px;
   border: none;
-  background: #37599A;
+  background: #37599a;
   color: #fff;
   border-radius: 6px;
   font-size: 18px;
